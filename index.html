@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shabbir Ali | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Header / Navbar ===== -->
+  <header>
+    <div class="logo">
+      <h1>Shabbir Ali</h1>
+      <p class="contact-info">📧 shabbirali@gmail.com | 📞 0320-3684276</p>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+  </header>
+
+  <!-- ===== About Section ===== -->
+  <section id="about">
+    <div class="about-content">
+      <img src="img/pic.jpg" alt="Shabbir Ali">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hello! I’m <strong>Shabbir Ali</strong>, a passionate <b>Front-End Web Developer</b> 
+          who loves crafting clean, responsive, and visually appealing websites. 
+          My goal is to turn complex problems into simple, beautiful, and intuitive designs.  
+          I have hands-on experience with <b>HTML, CSS, JavaScript, React.js</b>, and 
+          basic backend using <b>Node.js</b>.  
+          I’m continuously improving my skills, exploring new tools, and building modern web applications 
+          that deliver both great functionality and user experience.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Experience: 1 Year</p>
+      </div>
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Experience: 1 Year</p>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Experience: 1 Year</p>
+      </div>
+      <div class="skill-card">
+        <h3>React</h3>
+        <p>Experience: 1 Year</p>
+      </div>
+      <div class="skill-card">
+        <h3>Node.js</h3>
+        <p>Experience: 1 Year</p>
+      </div>
+      <div class="skill-card">
+        <h3>Java</h3>
+        <p>Experience: 1 Year</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio website built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <p>A simple weather application fetching live data from an API.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Recommendations Section ===== -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div class="recommend-grid">
+      <div class="recommend-card">
+        <p>"Shabbir is an excellent developer who always delivers high-quality work on time."</p>
+        <h4>- Ahmad Raza</h4>
+      </div>
+      <div class="recommend-card">
+        <p>"He is dedicated, hardworking, and has strong command over front-end technologies."</p>
+        <h4>- Sarah Khan</h4>
+      </div>
+      <div class="recommend-card">
+        <p>"A creative mind and a great team player. Shabbir always brings innovative ideas."</p>
+        <h4>- Bilal Ahmed</h4>
+      </div>
+    </div>
+
+    <!-- Leave a Recommendation Form -->
+    <div class="leave-recommend">
+      <h3>Leave a Recommendation</h3>
+      <form id="recommendForm">
+        <input type="text" id="recName" placeholder="Your Name" required />
+        <textarea id="recMessage" placeholder="Your Recommendation" required></textarea>
+        <button type="submit">Submit Recommendation</button>
+      </form>
+    </div>
+  </section>
+  <!-- Popup Message -->
+<div id="popupMessage" class="popup">
+  <p>✅ Thank you for leaving a recommendation!</p>
+</div>
+
+  <footer>
+    <p>© 2025 Shabbir Ali. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
